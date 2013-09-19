@@ -4,7 +4,7 @@ alias bashaliases="vim ~/.bash/; source ~/.bashrc"
 alias v="vim"
 
 # essentials
-alias ls="ls --color=auto"
+alias ls="ls -G"
 alias l="ls -l"
 alias la="ls -la"
 alias lt="ls -lt"
