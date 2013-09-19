@@ -42,3 +42,6 @@
   changed = green
   untracked = cyan
 
+[user]
+  name = Frank Kern
+	email = kerinio@me.com
