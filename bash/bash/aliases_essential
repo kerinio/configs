@@ -24,7 +24,9 @@ alias vim="vim -p"  # open files in tabs
 alias v=vim
 complete -o bashdefault -o default -o nospace -F _git g
 
-# shortcuts
-alias notes="vim $HOME/notes.txt"
-alias todo="vim $HOME/todo.txt"
+# mac specific shortcuts
+alias notes="open -a notes"
+alias todo="open -a reminders"
 
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'

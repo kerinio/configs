@@ -29,4 +29,3 @@ fi
 vim=/usr/bin/vim
 export EDITOR=$vim
 export VISUAL=$vim
-
