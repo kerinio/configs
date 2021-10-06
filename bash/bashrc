@@ -3,7 +3,10 @@
 # ==============
 
 # include binaries from $HOME/bin. To add more, link them in $HOME/bin/
-export PATH=$PATH:$HOME/bin
+PATH=$PATH:$HOME/opt/bin
+PATH=$PATH:/opt/local/bin
+export PATH
+
 
 # global bash completion
 [[ -s /etc/bash_completion ]] && source /etc/bash_completion
@@ -29,3 +32,9 @@ fi
 vim=/usr/bin/vim
 export EDITOR=$vim
 export VISUAL=$vim
+
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+
+export LC_ALL=C
