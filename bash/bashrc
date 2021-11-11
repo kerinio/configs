@@ -10,6 +10,7 @@ export PATH
 
 # global bash completion
 [[ -s /etc/bash_completion ]] && source /etc/bash_completion
+[[ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]] && . "$(brew --prefix)/etc/profile.d/bash_completion.sh"
 
 # tweak history
 export HISTCONTROL=ignoreboth
