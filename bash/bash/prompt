@@ -56,10 +56,6 @@ _fh_prompt_terraform() {
     [[ -f $tf_env_file ]] && echo " $_COLOR_GOLD[$(<$tf_env_file)]"
 }
 
-_fh_prompt_kubectl() {
-    test -v KUBECONFIG && echo " $_COLOR_GOLD[$(kubectl config current-context)]"
-}
-
 _fh_prompt_jobs() {
     local i=0
     jobs -l | while read -r line; do
