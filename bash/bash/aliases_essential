@@ -22,6 +22,7 @@ alias g="git"
 alias ipy="ipython"
 alias vim="vim -p"  # open files in tabs
 alias v=vim
+alias dc="docker-compose"
 complete -o bashdefault -o default -o nospace -F _git g
 
 # mac specific shortcuts

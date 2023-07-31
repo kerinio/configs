@@ -47,6 +47,7 @@
 	email = frank.kern@interim-x.com
 [core]
 	excludesfile = /Users/frank/.gitignore_global
+	autocrlf = input
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
